@@ -16,15 +16,15 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Emanuel</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>2</o:TotalTime>
-  <o:Created>2020-09-01T05:49:00Z</o:Created>
-  <o:LastSaved>2020-09-01T05:49:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Words>300</o:Words>
-  <o:Characters>1620</o:Characters>
-  <o:Lines>13</o:Lines>
-  <o:Paragraphs>3</o:Paragraphs>
-  <o:CharactersWithSpaces>1917</o:CharactersWithSpaces>
+  <o:TotalTime>63</o:TotalTime>
+  <o:Created>2020-09-27T00:35:00Z</o:Created>
+  <o:LastSaved>2020-09-27T00:35:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>333</o:Words>
+  <o:Characters>1800</o:Characters>
+  <o:Lines>15</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2129</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -37,8 +37,6 @@ href="Arquitetura%20de%20Computadores_arquivos/themedata.thmx">
 href="Arquitetura%20de%20Computadores_arquivos/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:HyphenationZone>21</w:HyphenationZone>
@@ -706,9 +704,6 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -777,23 +772,20 @@ font-family:"Times New Roman",serif'>Arquitetura de Computadores<o:p></o:p></spa
 font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif'>Tutorial de geração de código com <span class=SpellE>cross-compiling</span><o:p></o:p></span></p>
+"Times New Roman",serif'>Tutorial de geração de código com cross-compiling<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif'>O código <span class=SpellE>assembly</span> gerado no <span
-class=SpellE>cross-compiling</span> não chega até a etapa de ligação nos
-exemplos feitos, só é gerado o código <span class=SpellE>assembly</span>
+"Times New Roman",serif'>O código assembly gerado no cross-compiling não chega
+até a etapa de ligação nos exemplos feitos, só é gerado o código assembly
 equivalente para a arquitetura selecionada.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'>Como foi solicitado no projeto que fosse utilizado
 Linux juntamente com o compilador GCC. O tutorial descreve o processo utilizado
-nesta plataforma para geração dos códigos <span class=SpellE>assembly</span> em
-ARMv8 e Intel.<o:p></o:p></span></p>
+nesta plataforma para geração dos códigos assembly em ARMv8 e Intel.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif'>É necessário instalar o <span class=SpellE>Gnu</span> <span
-class=SpellE>Compiler</span> <span class=SpellE>Collection</span> (GCC)
+"Times New Roman",serif'>É necessário instalar o Gnu Compiler Collection (GCC)
 disponível no repositório do Ubuntu que foi o sistema utilizado.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
@@ -803,8 +795,7 @@ disponível no repositório do Ubuntu que foi o sistema utilizado.<o:p></o:p></spa
 font-family:"Times New Roman",serif'>Instalar GCC<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>Sudo</span> <span
-class=SpellE>apt</span> <span class=SpellE>install</span> <span class=SpellE>gcc</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ Sudo apt install gcc<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -812,16 +803,13 @@ class=SpellE>apt</span> <span class=SpellE>install</span> <span class=SpellE>gcc
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'>Com a instalação do GCC concluída já é possível
 compilar código para a AMD e Intel, para a compilação cruzada é necessário
-utilizar um adicional do GCC que permite fazer <span class=SpellE>cross-compiling</span>
-para ARM.<o:p></o:p></span></p>
+utilizar um adicional do GCC que permite fazer cross-compiling para ARM.<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
 font-family:"Times New Roman",serif'>Instalando o adicional do GCC para 64bits<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>sudo</span> <span
-class=SpellE>apt</span> <span class=SpellE>install</span> gcc-aarch64-linux-gnu
-g++-aarch64-linux-gnu<o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ sudo apt install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -830,9 +818,8 @@ g++-aarch64-linux-gnu<o:p></o:p></span></p>
 font-family:"Times New Roman",serif'>Instalando o adicional do GCC para 32bits<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>sudo</span> <span
-class=SpellE>apt</span> <span class=SpellE>install</span> <span class=SpellE>gcc-arm-linux-gnueabihf</span>
-g++-<span class=SpellE>arm-linux-gnueabif</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ sudo apt install gcc-arm-linux-gnueabihf
+g++-arm-linux-gnueabif<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -845,21 +832,17 @@ compilação para ambas as plataformas<o:p></o:p></span></p>
 font-family:"Times New Roman",serif'>Compilando para Intel sem otimização<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>gcc</span> -S -<span
-class=SpellE>masm</span>=<span class=SpellE>intel</span> <span class=SpellE>Code.c</span>
--o <span class=SpellE>Code.s</span> <o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ gcc -S -masm=intel Code.c -o Code.s <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
-font-family:"Times New Roman",serif'>Compilando para <span class=SpellE>intel</span>
-com nível 1 de otimização (pode ir de -O1 até -O3)<o:p></o:p></span></b></p>
+font-family:"Times New Roman",serif'>Compilando para intel com nível 1 de
+otimização (pode ir de -O1 até -O3)<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$<span class=SpellE>gcc</span> -S -<span
-class=SpellE>masm</span>=<span class=SpellE>intel</span> <span class=SpellE>Code.c</span>
--O1 -o <span class=SpellE>Code.s</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$gcc -S -masm=intel Code.c -O1 -o Code.s<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -869,22 +852,33 @@ font-family:"Times New Roman",serif'>Compilando para ARM sem otimização, por
 padrão ela é compilada para ARM v8 utilizando essa instalação<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ aarch64-linux-gnu-gcc -S <span
-class=SpellE>Code.c</span> -o <span class=SpellE>Code.s</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ aarch64-linux-gnu-gcc -S Code.c -o Code.s<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
+font-family:"Times New Roman",serif'>Compilando para ARM 32 bits<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:red'>$ arm-linux-gnueabihf-gcc -S -march=arv8-a
+Code.c -o Code.s<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
-font-family:"Times New Roman",serif'>Compilando para ARM com nível 1 de
+font-family:"Times New Roman",serif'>Compilando para ARM 64 bits com nível 1 de
 otimização<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ aarch64-linux-gnu-gcc -S <span
-class=SpellE>Code.c</span> -O1 -o <span class=SpellE>Code.s</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ aarch64-linux-gnu-gcc -S Code.c -O1 -o
+Code.s<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
+font-family:"Times New Roman",serif'>Compilando para ARM 32 bits com nível 1 de
+otimização<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+"Times New Roman",serif;color:red'>$ arm-linux-gnueabihf-gcc -S -march=arv8-a
+Code.c -O1 -o Code.s<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -898,20 +892,17 @@ com o valor default que é um código não otimizado (-O0).<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'>Informações extras:<o:p></o:p></span></p>
 
-<p class=MsoNormal><span class=SpellE><b><span style='font-size:12.0pt;
-line-height:106%;font-family:"Times New Roman",serif'>Consulltar</span></b></span><b><span
-style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif'>
-informações sobre o compilador<o:p></o:p></span></b></p>
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
+font-family:"Times New Roman",serif'>Consulltar informações sobre o compilador<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>gcc</span> –help<o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ gcc –help<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:106%;
 font-family:"Times New Roman",serif'>Listar comandos disponíveis no GCC<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
-"Times New Roman",serif;color:red'>$ <span class=SpellE>man</span> <span
-class=SpellE>gcc</span><o:p></o:p></span></p>
+"Times New Roman",serif;color:red'>$ man gcc<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:106%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
